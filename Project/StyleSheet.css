@@ -1,0 +1,60 @@
+﻿body {
+    margin: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    padding:5%;
+    background-color:#fff;
+    color:#333;
+}
+
+label, input[type] {
+    font-size: 14px;
+    color: #3d3935;
+    font-weight: bold;
+}
+
+.list-item {
+    width: 50%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type] {
+    border-radius: 2px;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.form-navigation, .forms-container, .view-details {
+    border: 2px solid #3d3935;
+}
+
+.form-navigation {
+    background-color: #c9c9c9;
+}
+
+.form-header {
+    display: inline-block;
+    padding: 10px;
+    width: 46%;
+    text-align: center;
+}
+
+.form-navigation > .form-header:first-of-type {
+    border-right: 2px solid #3d3935;
+}
+
+.form-header:hover, th:hover {
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    text-align:center;
+}
+
+.view-details {
+    display: none;
+}

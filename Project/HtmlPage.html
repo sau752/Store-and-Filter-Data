@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <title>This is test page</title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="JavaScript.js"></script>
+</head>
+<body class="page-body">
+    <div class="page-workspace">
+        <div class="page-header">
+
+        </div>
+
+        <div class="page-body-container">
+
+            <div class="form-navigation">
+                <div class="form-header" id="userDetails">
+                    <h3>Mention Your Details</h3>
+                </div>
+                <div class="form-header" id="submittedDetails">
+                    <h3>View Details</h3>
+                </div>
+            </div>
+            <br />
+
+            <div class="forms-container" id="myForm">
+
+                <form action=# id="dataForm">
+
+                    <div class=form-fields>
+
+                        <div class="list-item">
+                            <label for="first-name">First name</label>
+                            <br />
+                            <input type="text" class="text-input" id="first-name" placeholder="Jon">
+                        </div>
+
+                        <div class="list-item">
+                            <label for=""last-name>Last name</label>
+                            <br />
+                            <input type="text" class="text-input" id="last-name" placeholder="Doe">
+                        </div>
+
+                        <div class="list-item">
+                            <label for="email">Email</label>
+                            <br />
+                            <input type="email" class="text-input" id="email" placeholder="johdoe@example.com">
+                        </div>
+
+                        <div class="list-item">
+                            <label for="number">Mobile</label>
+                            <br />
+                            <input type="number" class="text-input" id="number" placeholder="8125621825">
+                        </div>
+
+                        <div class="list-item">
+                            <br />
+                            <input type="reset" value="Clear">
+                            <br />
+                        </div>
+
+                        <div class="list-item">
+                            <br />
+                            <input id="submitForm" type="submit" value="Submit">
+                        </div>
+
+                        <div class="clearFix">
+                            
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="view-details" id="formDetails">
+                <table border="1">
+                    <tbody id="tableBody">
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>Number</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+        <div class="page-footer">
+
+        </div>
+    </div>
+</body>
+</html>
